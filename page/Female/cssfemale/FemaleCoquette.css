@@ -1,5 +1,5 @@
 marquee{
-    animation: text 3s infinite linear;
+    animation: text 2s infinite linear;
     border-style: solid;
     display: grid;
         grid-template-rows: auto auto 1fr auto;
