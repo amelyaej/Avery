@@ -22,9 +22,10 @@
     background: url(image/bg.png) no-repeat; 
     background-size: cover;
     background-position: center;
+ 
   }
   .box{
-    width: 450px;
+    width: 420px;
     height: 400px;
     background-color: #e0d3d2;
     color: #fff;
@@ -34,19 +35,23 @@
     top: 50%;
     bottom: 50%;
     padding: 120px 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
   }
   .logo{
     width: 100px;
-    height: 45px;
+    height: auto;
     position: absolute;
-    top: 130px;
+    top: 100px;
     left: calc(50% - 50px);
   }
   .quotes{
     width: 15%;
-    height: 5%;
+    height: auto;
     position: absolute;
-    top: 27%;
+    top: 25%;
     left: 43%;
   }
   .question1{
@@ -150,8 +155,8 @@
 <body>
 <div class="box">
   <form action="">
-    <img src="/image/logo.PNG" class="logo">
-    <img src="/image/quotes.PNG" class="quotes">
+    <img src="/form/image/logo.PNG" class="logo">
+    <img src="/form/image/quotes.PNG" class="quotes">
       <p class="question1"> What is your gender ?</p>
     <div class="radio1">
         <input type="radio" value="Male" name="gender" required>
@@ -182,7 +187,7 @@
           <option value="Cooperate">Cooperate</option>
         </select>
       </div>   
-    <button onclick="location.href='page3.html'" type="submit">Next</button>
+    <button onclick="location.href='home.html'" type="submit">Next</button>
   </form>
 </div>
 </body>
