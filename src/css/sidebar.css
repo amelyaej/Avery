@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Libre+Baskerville&family=Poppins:wght@100&display=swap');
 *{
     background-color: black;
+    font-family: 'Libre Baskerville';
 }
 nav{
     width: 100vw;
 }
-
+nav ul{
+    padding-inline-start: 0;
+}
 
 nav ul li{
     background-color: black;
@@ -85,4 +89,5 @@ nav ul li a:focus{
 
 .dropdown a{
     display: block;
+    font-size: 15px;
 }
