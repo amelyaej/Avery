@@ -154,7 +154,7 @@
 </style>
 <body>
 <div class="box">
-  <form action="">
+  <form action="../page/home.html">
     <img src="/form/image/logo.PNG" class="logo">
     <img src="/form/image/quotes.PNG" class="quotes">
       <p class="question1"> What is your gender ?</p>
@@ -178,7 +178,7 @@
       <p>Which style suit you better ?</p>
     </div> 
     <div class="selector">
-     <select class="select">
+     <select class="select" required>
           <option disabled selected></option>
           <option value="Y2K">Y2K</option>
           <option value="Sunglasses">Sporty</option>
@@ -186,6 +186,8 @@
           <option value="Casual">Casual</option>
           <option value="Cooperate">Corporate</option>
         </select>
+      </div>
+    <button type="submit">Next</button>
       </div>   
     <button onclick="location.href='../page/index.html'" type="submit">Next</button>
   </form>
