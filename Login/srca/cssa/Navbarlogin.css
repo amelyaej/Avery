@@ -13,7 +13,8 @@ nav{
     position: fixed;
     width: 100vw;
     height: 60px;
-} nav img{
+} 
+nav img{
     width: 120px;
     margin: 0px 0px 0px 40px ;
 }
@@ -39,4 +40,8 @@ nav ul li a:hover{
     background: white;
     color: black;
     border-radius: 20px;
+}
+.insta{
+    width: 120px;
+    margin: 0px 0px 0px 40px ;
 }
