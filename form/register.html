@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration-form</title>
+</head>
+<style>
+  *{
+    overflow: hidden;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(image/bg.png) no-repeat; 
+    background-size: cover;
+    background-position: center;
+  }
+  .register{
+    width: 400px;
+    height: 400px;
+    background: #e0d3d2;
+    color:black;
+    top: 50%;
+    left: 50%;
+    right: 50%;
+    bottom: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 30px;
+  }
+  .register input{
+    width: 100%;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+  .register input[type="first-name"]
+  {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .register [type="last-name"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .register [type="user-name"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .register [type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .logo{
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: -52%;
+    left: calc(50% - 50px);
+    margin-top: 220px;
+  }
+  .desc{
+    width: 1200px;
+    height:60px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 85px;
+    color:  #4c4c4c;
+    font-size: 25px; 
+  }
+  .register [type="next-page"]{
+    border: none;
+    outline: none;
+    height: 40px; 
+    width: 160px;
+    background:  #bd8eab;
+    color: #4c4c4c;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-left:90px;
+    margin-top: -25px;
+  }
+  .register [type="next-page"]:hover{
+    cursor: pointer;
+    background:  #d3a7c2;
+    color: #fff;
+  }
+</style>
+<body>
+ <div class="register">
+  <img class="logo" src="/image/logo.PNG">
+  <h2 class="desc">Registration Page</h2>
+  <form>
+  <input type="first-name" placeholder="First Name">
+  <input type="last-name" placeholder="Last Name">
+  <input type="user-name" placeholder="User Name">
+  <input type="password" placeholder="Password">
+</form>
+<button onclick="location.href='reminder-regis.html'" type="next-page">Next</button>
+</div>
+</body>
+</html>

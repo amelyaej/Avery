@@ -60,9 +60,6 @@ img {
 
 .button-login{
     display: inline-block;
-    padding: 15px 80px;
-    border-radius: 25px;
-    background-color: #e0d3d2;
     color: white;
     justify-content: center;
     bottom: 245px;
@@ -72,4 +69,72 @@ img {
 .button-login a{
     text-decoration: none;
     color: white;
+}
+.btn{
+	display: inline-block;
+	background: #251816;
+	color: #fff;
+	padding: 20px 50px;
+	margin: 1px 0;
+	border-radius: 30px; 
+	transition: background 0.5s;
+}
+.btn:hover{
+	background: #c59e9e;
+}
+
+.Footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.Footer p{
+	color: #8a8a8a; 
+}
+.Footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.Footer-col-1, .Footer-col-2, .Footer-col-3, .Footer-col-4{
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+.Footer-col-1{
+	flex-basis: 30%;
+}
+.Footer-col-2{
+	flex:  1;
+	text-align: center;
+}
+.Footer-col-2 img{
+	width: 180px;
+	margin-bottom: 20px;
+}
+.Footer-col-3, .Footer-col-4{
+	flex-basis: 12%;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+.app-logo{
+	margin-top: 20px;
+}
+.app-logo img{
+	width: 140px;
+}
+.Footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+.copyright{
+	text-align: center;
+}
+.menu-icon{
+	width: 28px;
+	margin-left: 20px;
+	display: none;
 }

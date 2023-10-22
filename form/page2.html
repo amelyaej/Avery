@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>page 2</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&family=Montserrat:wght@600;900&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Slab:wght@500&family=Roboto:wght@400;500;700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', serif;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(/form/image/bg.png) no-repeat; 
+    background-size: cover;
+    background-position: center;
+  }
+  .container{
+    width: 400px;
+    background-color: #e0d3d2;
+    color: #fff;
+    border-radius: 40px;
+    right: 50%;
+    left: 50%;
+    top: 50%;
+    bottom: 50%;
+    padding: 70px 50px;
+  }
+  .logo{
+    width: 100px;
+    height: 45px;
+    position: absolute;
+    top: -100px;
+    left: calc(50% - 50px);
+  }
+  .quotes{
+    width: 65%;
+    height: 65%;
+    position: absolute;
+    top: -50px;
+    left:  60px;
+  }
+  .container h1{
+    width: 1200px;
+    height:60px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 85px;
+    color:  #4c4c4c;
+    font-size: 20px; 
+  }
+  .container .input-box{
+    width: 100%;
+    height: 50%;
+    margin: 40px 0 40px;
+    position: relative;
+  }
+  .input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    margin: 1px 0 -15px;
+    padding: 20px 45px 20px 20px;
+  }
+  .input-box input::placeholder{
+    color: #fff;
+  }
+  .input-box i{
+    right: 4px;
+    position: absolute;
+    transform: translate(-50%);
+    top:35%;
+    font-size: 18px;
+  }
+  .container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin: -15px 0 15px;
+    font-weight: 700;
+  }
+  .remember-forgot label input{
+    accent-color: #bd8eab;
+    margin: 10px 4px 4px 0px;
+  }
+  .remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+    margin: 15px 0 3px;
+    font-weight: 700;
+  }
+  .remember-forgot a:hover{
+    text-decoration: underline;
+    color: #bd8eab;
+  }
+  .container [type="next-page"]{
+    width: 100%;
+    height: 40px;
+    background:  #bd8eab;
+    color: #4c4c4c;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 10px 0 5px;
+  }
+  .container [type="next-page"]:hover{
+    cursor: pointer;
+    background:  #d3a7c2;
+    color: #fff;
+  }
+  .container .register-link{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0 -20px;
+  }
+  .register-link p a{
+     color: #4c4c4c;
+     text-decoration: none;
+     font-weight: 800;
+  }
+  .register-link p a:hover{
+    text-decoration: underline;
+  }
+
+</style>
+<body>
+<div class="container">
+  <form action="">
+    <div class="input-box">
+      <img class="logo" src="/form/image/logo.PNG">
+      <img class="quotes" src="/form/image/quotes.PNG">
+      <input type="email" placeholder="Enter your email" required>
+      <i class='bx bx-user-circle'></i>
+    </div>
+    <div class="input-box">
+      <input type="password" placeholder="Enter your password" required>
+      <i class='bx bx-lock'></i>
+    </div>
+    <div class="remember-forgot">
+      <label><input type="checkbox">Remember Me</label>
+      <a href="reset.html">Forgot Password</a>
+    </div>
+    <button onclick="location.href='page3.html'" type="next-page">Login</button>
+    <div class="register-link">
+      <p>Don't have an account? <a href="../form/register.html">Register</a></p>
+    </div>
+  </form>
+</div>
+</body>
+</html>
