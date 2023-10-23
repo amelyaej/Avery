@@ -22,7 +22,6 @@ nav ul{
     margin: 0px 40px 0px 0px;
     display: flex;
     align-items: center;
-    width: 600px;
     justify-content: center;
 }
 nav ul li{
@@ -32,7 +31,7 @@ nav ul li{
 nav ul li a{
     color: white;
     text-decoration: none;
-    margin: 20px;
+    margin: 10px;
     padding: 8px 10px;
 }
 nav ul li a:hover{
@@ -40,8 +39,4 @@ nav ul li a:hover{
     background: white;
     color: black;
     border-radius: 20px;
-}
-.insta{
-    width: 120px;
-    margin: 0px 0px 0px 40px ;
 }
