@@ -42,7 +42,7 @@
     font-size: 28px;
 }
 
-/* @media (min-aspect-ratio: 16/9){
+@media (min-aspect-ratio: 16/9){
     .back-video{
         width: 100%;
         height: auto;
@@ -53,7 +53,6 @@
         width: auto;
         height: 100%;
     }
-<<<<<<< HEAD
 }
 h3{
     text-align: center;
@@ -343,6 +342,3 @@ button{
         width: 100%;
     }
 }
-=======
-} */
->>>>>>> 943cec1209727c041a5f309c27f347db87759f84
