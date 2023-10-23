@@ -107,7 +107,7 @@
 }
 .Footer-col-2 img{
 	width: 180px;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 }
 .Footer-col-3, .Footer-col-4{
 	flex-basis: 12%;
@@ -135,4 +135,7 @@ ul{
 	width: 28px;
 	margin-left: 20px;
 	display: none;
+}
+.row{
+    display: flex;
 }

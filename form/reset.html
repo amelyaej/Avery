@@ -50,17 +50,17 @@
     margin-bottom: 50px;
   }
   
-  button:hover
+  .login-box button:hover
   {
     cursor: pointer;
     background:  #d3a7c2;
     color: #fff;
   }
   .logo1{
-    width: 88px;
+    width: 120px;
     height: 40px;
     position: absolute;
-    top: -52%;
+    top: -50%;
     left: calc(50% - 50px);
     margin-top: 211px;
   }
@@ -68,7 +68,7 @@
     width: 1200px;
     height:60px;
     position: absolute;
-    margin-top: 20px;
+    margin-top: 24px;
     margin-bottom: 20px;
     margin-left: 80px;
     color:  #4c4c4c;
@@ -89,7 +89,7 @@
     top:64%;
     font-size: 18px;
   }
-  .login-box [type=next-page]{
+  .login-box button{
     border: none;
     outline: none;
     height: 40px; 
@@ -103,15 +103,15 @@
   }
 </style>
 <body>
- <div class="login-box">
-  <img class="logo1" src="/image/logo.PNG">
+<div class="login-box">
+  <img class="logo1" src="../form/image/logo.PNG">
   <h2 class="title">Reset Password Page</h2>
   <p class="description">Please kindly check your email is the same email that registered, before send a new reset link to your email account!</p>
-  <form>
-  <input type="text" name="email" placeholder="Enter email">
+  <form action="./reminder-reset.html">
+  <input type="text" name="email" placeholder="Enter email" required>
   <i class='bx bxs-envelope'></i>
+  <button type="submit">Next</button>
 </form>
-<button onclick="location.href='reminder-reset.html'" type="next-page">Next</button>
 </div>
 </body>
 </html>

@@ -81,7 +81,7 @@
     margin-bottom: 30px;
   }
   .logo{
-    width: 100px;
+    width: 120px;
     height: 45px;
     position: absolute;
     top: -52%;
@@ -117,13 +117,13 @@
 </style>
 <body>
  <div class="register">
-  <img class="logo" src="/image/logo.PNG">
+  <img class="logo" src="../form/image/logo.PNG">
   <h2 class="desc">Registration Page</h2>
   <form>
-  <input type="first-name" placeholder="First Name">
-  <input type="last-name" placeholder="Last Name">
-  <input type="user-name" placeholder="User Name">
-  <input type="password" placeholder="Password">
+  <input type="first-name" placeholder="First Name" required>
+  <input type="last-name" placeholder="Last Name" required>
+  <input type="user-name" placeholder="User Name" required>
+  <input type="password" value="" placeholder="Password" required>
 </form>
 <button onclick="location.href='reminder-regis.html'" type="next-page">Next</button>
 </div>
