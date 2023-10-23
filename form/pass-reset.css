@@ -14,12 +14,19 @@
   height: 100vh;
   padding: 15px;
 }
+<<<<<<< Updated upstream
 .logo-brand .logo{
+=======
+.logo{
+>>>>>>> Stashed changes
   width: 100px;
   height: 45px;
   position: absolute;
   top: -100px;
+<<<<<<< Updated upstream
   left: calc(50% - 50px);
+=======
+>>>>>>> Stashed changes
 }
 .header{
   margin-bottom: 30px;

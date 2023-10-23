@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>frame2</title>
+</head>
+<style>
+  .frame2{
+    filter: blur(6px);
+  }
+  .body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .login-box{
+    width: 320px;
+    height: 420px;
+    background: #e0d3d2;
+    color:black;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+  }
+  .login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .login-box input[type="text"], input[type="password"]
+  {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+  .login-box input[type="text"], input[type="email"]
+  {
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 70px;
+    padding-bottom: 1px;
+    margin-bottom: -100px;
+  }
+  button{
+    border: none;
+    outline: none;
+    height: 40px; 
+    width: 160px;
+    background:  #bd8eab;
+    color: #4c4c4c;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+  button:hover
+  {
+    cursor: pointer;
+    background:  #d3a7c2;
+    color: #fff;
+  }
+  .logo1{
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    top: -46%;
+    left: calc(50% - 50px);
+    margin-top: 211px;
+  }
+  .logo2{
+    width: 160px;
+    height: 30px;
+    position: absolute;
+    margin-bottom: 120px;
+    margin-top: 6px;
+    margin-left: 60px;
+  
+  }
+
+</style>
+<body>
+  <img class="frame2" style="height: 600px; width: 400px;" src="/frame2.JPG">
+  
+  <div class="login-box">
+    <img class="logo1" src="form.PNG">
+    <img class="logo2" src="/quotes.PNG">
+    <form>
+    <input type="text" name="email" placeholder="Enter email">
+    <input type="text" name="password" placeholder="Enter password">
+    <button onclick="location.href='main-page.html'" type="button">Login</button>
+         
+    </form>
+
+  </div>
+  
+</body>
+</html>
