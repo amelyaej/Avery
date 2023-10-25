@@ -1,6 +1,6 @@
 /* Variable of color */
 body{
-    background-image: url('/src/img/back3.jpg');
+    background-image: url('../glasses/img/back3.jpg');
     backdrop-filter: blur(4px);
     background-size: cover;
     background-repeat: no-repeat;
