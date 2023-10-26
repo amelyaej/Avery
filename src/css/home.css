@@ -18,13 +18,14 @@
     overflow: hidden;
 }
 .container h1{
-    margin-top: 80px;
-    font-size: 48px;
+    margin-top: 100px;
+    font-size: 45px;
     font-weight: 800;
-    color: #e0d3d2;
+    color: black;
 }
 .container h1:hover{
     color: #c59e9e;
+    cursor: pointer;
 }
 .back-video{
     position: absolute;
@@ -62,115 +63,135 @@
         height: 100%;
     }
 }
-.small-container{
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.small-container h2{
-    margin-top: 50px;
-    font-size: 45px;
-    margin-left: 0%;
-}
-.row-1{
-    flex-basis: 15%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 10px;
-    margin-left: 900px;
-    transition: transform 0.5s;
-}
-.row-2{
-    flex-basis: 15%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 10px;
-    margin-left: 1px;
-    transition: transform 0.5s;
-}
-.col-3{
-    flex-basis: 15%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 10px;
-    margin-left: 1px;
-    transition: transform 0.5s;
-}
-.col-4{
-    flex-basis: 15%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 10px;
-    margin-left: 1px;
-    transition: transform 0.5s;
-}
-.col-5{
-    flex-basis: 15%;
-    padding: 10px;
-    min-width: 200px;
-    margin-bottom: 10px;
-    margin-left: 1px;
-    transition: transform 0.5s;
-}
-.col-4 img{
-    width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-.title{
-    text-align: center;
-    margin: 1 auto 80px;
-    position: relative;
-    line-height: 60px;
-    color: #4c4c4c;
+body{
+	font-size: 1.7rem;
+	font-family: 'Merriweather Sans', sans-serif;
+	background: #e0d3d2;
+	color: #ececec;
+	padding: 4rem;
 }
 
-.title::after{
-    content: '';
-    background: #e0d3d2;
-    width: 200px;
-    height: 5px;
-    border-radius: 5px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
+h2{
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 3rem;
+    color: #fff;
 }
-
-h4{
-    color: #555;
-    font-size: 30px;
-    top: 40%;
-}
-
-.col-4 p{
-     font-size: 14px;
-}
-
-.rating .fa{
-    color:  #4c4c4c;
+h2 .custom-hr{
+    color: black;
+    border: 2px solid #ffff;
+    width: 50%;
+    margin-left: 250px;
     margin-top: 10px;
-    margin-bottom: 0px;
 }
 
-.rating .far{
-    color: #4c4c4c;
+.all-products{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
-.rating .fas{
-    color: #4c4c4c;
+.product{
+	overflow: hidden;
+	background: #ffffff;
+	color: #21201e;
+	text-align: center;
+	width: 240px;
+	height: 400px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	border-radius: 1.2rem;
+	margin: 2rem;
 }
 
-.col-4:hover{
-    transform: translateY(-5px);
->>>>>>> Stashed changes
+.product .product-title, .product .product-price{
+	font-size: 18px;
+    color:#e0d3d2;
 }
 
-@media(max-width:1000px){
-    .content{
-        width: 45%;
-    }
+.product:hover img{
+	scale:  1.1;
 }
-@media(max-width:750px){
-    .content{
-        width: 100%;
-    }
+
+.product:hover {
+	box-shadow: 5px 15px 25px #4c4c4c;
+}
+
+.product img {
+	height: 200px;
+	margin: 1rem;
+	transition: all 0.3s;
+}
+.container{
+    padding: 100px;
+}
+.Footer{
+	background: #000;
+	color: #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+.Footer p{
+	color: #8a8a8a; 
+}
+.Footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+.Footer-col-1, .Footer-col-2, .Footer-col-3, .Footer-col-4{
+	min-width: 250px;
+	margin-bottom: 20px;
+}
+.Footer-col-1{
+	flex-basis: 30%;
+}
+.Footer-col-2{
+	flex:  1;
+	text-align: center;
+}
+.Footer-col-2 img{
+	width: 180px;
+	margin-bottom: 0px;
+}
+.Footer-col-3, .Footer-col-4{
+	flex-basis: 12%;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+}
+.app-logo{
+	margin-top: 20px;
+}
+.app-logo img{
+	width: 140px;
+}
+.Footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+.copyright{
+	text-align: center;
+}
+.menu-icon{
+	width: 28px;
+	margin-left: 20px;
+	display: none;
+}
+.row{
+    display: flex;
 }
