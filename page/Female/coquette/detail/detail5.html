@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Detail</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                background-color: white;
+                font-family: 'Montserrat', sans-serif;
+
+            }
+            /* Center the product on the page */
+            .product {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            /* Style the product details */
+            .product-details {
+                border-radius: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100vh;
+                width: 100vw;
+            }
+
+            /* Style the product image */
+            .product-image {
+                width: 600px;
+                height: 600px;
+                margin-bottom: 20px;
+                border-radius: 30px;
+            }
+            .product-details .desc {
+                width: 500px;
+            }
+            .product-details .desc form button {
+                padding: 15px 80px;
+                background: black;
+                color: white;
+                border-radius: 5px;
+                outline: none;
+                border: 1px solid black;
+                font-size: 14px;
+                margin: 5px;
+            }
+            .product-details .desc form button:hover {
+                transform: scale(0.99);
+                background-color: palevioletred;
+            }
+            .product-details img {
+                padding: 50px;
+            }
+            .product-details .desc h1 {
+                margin-bottom: 20px;
+            }
+            .product-details .desc h2 {
+                margin-bottom: 20px;
+            }
+            .product-details .more-desc {
+                margin-top: 10px;
+                margin-bottom: 20px;
+            }
+            .product-details .more-desc p {
+                margin-bottom: 10px;
+            }
+            .product-details .more-desc a {
+                text-decoration: none;
+            }
+
+            .product .img-detail {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .product .navbar a {
+                text-decoration: none;
+                font-size: 20px;
+            }
+            .product .desc .size {
+                margin-bottom: 40px;
+            }
+            .product .desc .size select {
+                width: 400px;
+                height: 40px;
+                border: 1px solid #e4e4e4;
+                padding: 0 0 0 10px;
+                font-size: 16px;
+                color: #767676;
+                font-weight: 400;
+            }
+            .navbar {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .navbar a {
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 600;
+                color: black;
+            }
+            
+            .img-detail {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            .img-detail img {
+                width: 600px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="product">
+            <div class="product-details">
+                <img class="product-image" src="../img/Coquette5.jpg" alt="Product Image">
+                <div class="desc">
+                    <form action="#">
+                        <h1>Petal Corset Dress</h1>
+                        <h2>$30</h2>
+                        <div class="more-desc">
+                            <p>Product Description</p>
+                            <a href="#detail">Book of Looks</a>
+                        </div>
+                        <div class="size">
+                            <select required="true">
+                                <option value="*" selected="" link_image="">[Required] Size</option>
+                                <option value="**" disabled="" link_image="">-------------------</option>
+                                <option value="XS" link_image="">XS</option>
+                                <option value="XS" link_image="">S</option>
+                                <option value="XS" link_image="">M</option>
+                            </select>
+                        </div>
+                        <button>Add to Cart</button>
+                        <button>Buy Now
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <a href="">DETAIL</a>
+        </div>
+        <div class="img-detail" id="detail">
+            <img src="../img/Scroll5.png" alt="">
+        </div>
+    </body>
+</html>
