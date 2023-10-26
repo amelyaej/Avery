@@ -5,7 +5,7 @@
                 padding: 0;
             }            
             .hero {
-                background-image: url('https://via.placeholder.com/1200x600');
+                background-image: url('../corporate/img/copy_C46AA897-CE6A-4C8F-9E97-C289995B1E8B.MOV');
                 background-size: cover;
                 background-position: center;
                 height: 600px;
@@ -29,7 +29,7 @@
             .btn {
                 background-color: #fff;
                 color: #333;
-                padding: 10px 20px;
+                padding: 6px 10px;
                 border-radius: 5px;
                 text-decoration: none;
                 font-weight: bold;
